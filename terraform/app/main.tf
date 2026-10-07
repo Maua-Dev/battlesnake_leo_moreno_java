@@ -61,7 +61,7 @@ resource "aws_lambda_function" "lambda_battle_snake_java" {
   # A JVM sobe devagar e a CPU da Lambda escala com a memoria: em 128 MB (o
   # padrao quando nada e definido) o cold start passa de varios segundos e
   # estoura o timeout padrao de 3s.
-  memory_size = 1024
+  memory_size = 2048
   timeout     = 10
 
   # SnapStart tira um snapshot da JVM ja inicializada e restaura a partir dele,

@@ -168,7 +168,7 @@ public class Logic {
             // Reserva tempo para serializacao, Lambda e rede.
             long budgetMs = Math.max(
                 0,
-                Math.min(160, timeout - 180)
+                Math.min(65, timeout - 180)
             );
 
             deadline = System.nanoTime()
