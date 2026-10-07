@@ -1,10 +1,18 @@
 package com.mauadev.code;
 
+import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.Collections;
+import java.util.Comparator;
+import java.util.HashSet;
+import java.util.List;
+import java.util.Map;
+import java.util.Objects;
+import java.util.Set;
+
 import com.mauadev.code.entities.Coordinate;
 import com.mauadev.code.entities.GameState;
 import com.mauadev.code.entities.Snake;
-
-import java.util.*;
 
 /** Estrategia para Battlesnake Standard. Compativel com Java 17. */
 public class Logic {
@@ -19,8 +27,8 @@ public class Logic {
         return Map.of(
             "apiversion", "1",
             "author", "",
-            "color", "#8B0000",
-            "head", "tiger-king",
+            "color", "#FF4D00",
+            "head", "caffeine",
             "tail", "hook",
             "version", "2.0.0"
         );
